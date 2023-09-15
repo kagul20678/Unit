@@ -1,8 +1,7 @@
 [
 	{
-		"name": "King",
+		"name": "Scout",
 		"unitType": "King",
-		"replaces": "Scout",
 		"uniqueTo": "Rome",
 		"movement": 5,
 		"strength": 15,
