@@ -1,7 +1,7 @@
 [
 	{
-		"name": "king",
-		"unitType": "king",
+		"name": "King",
+		"unitType": "King",
 		"uniqueTo": "Rome",
 		"movement": 5,
 		"strength": 15,
