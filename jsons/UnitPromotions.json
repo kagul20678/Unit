@@ -313,7 +313,7 @@
 	{
 		"name": "Targeting I",
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
-		"unitTypes": ["Ranged Water"],
+		"unitTypes": ["Ranged Water","King"],
         "column": 13,
         "row": 1
 	},
@@ -321,7 +321,7 @@
 		"name": "Targeting II",
 		"prerequisites": ["Targeting I"],
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
-		"unitTypes": ["Ranged Water"],
+		"unitTypes": ["Ranged Water","King"],
         "column": 13,
         "row": 2
 	},
@@ -329,7 +329,7 @@
 		"name": "Targeting III",
 		"prerequisites": ["Targeting II"],
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
-		"unitTypes": ["Ranged Water"],
+		"unitTypes": ["Ranged Water","King"],
         "column": 13,
         "row": 3
 	},
@@ -668,10 +668,34 @@
 	{
 		"name": "King of survival",
 		"prerequisites": ["Survivalism II"],
-		"uniques": ["[+30]% Strength","[+50]% Strength <when defending>"],
+		"uniques": ["[+30]% Strength","[+50]% Strength <when defending>","[10] HP when healing <when below [20] HP>"],
 		"unitTypes": ["King"],
         "column": 27,
         "row": 1
+	},
+	{
+		"name": "Overpower I",
+		"prerequisites": ["King of survival"],
+		"uniques": ["[+50]% Strength","[+50]% Strength <when defending>"],
+		"unitTypes": ["King"],
+        "column": 27,
+        "row": 2
+	},
+	{
+		"name": "Overpower II",
+		"prerequisites": ["Overpower I"],
+		"uniques": ["[+50]% Strength","[+50]% Strength <when defending>"],
+		"unitTypes": ["King"],
+        "column": 27,
+        "row": 3
+	},
+	{
+		"name": "Overpower III",
+		"prerequisites": ["Overpower II"],
+		"uniques": ["[+50]% Strength","[+50]% Strength <when defending>"],
+		"unitTypes": ["King"],
+        "column": 27,
+        "row": 4
 	},
 
 	// Uniques that should be kept on upgrades
