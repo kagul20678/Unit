@@ -10,7 +10,24 @@
 		"interceptRange": 6,
 		"cost": 15,
 		"promotions": ["Ignore terrain cost","Rejuvenation"],
-		"uniques": ["Ignores Zone of Control","Can pass through impassable tiles","Damage is ignored when determining unit Strength","[2] additional attacks per turn","[+100]% XP gained from combat","Never appears as a Barbarian unit","May withdraw before melee ([90]%) <when below [15] HP>","Can see over obstacles","[+100]% chance to intercept air attacks","Limited to [1] per Civilization","May travel on Water tiles without embarking","[+50]% Strength <when below [50] HP>"],
+		"uniques": ["Ignores Zone of Control","Can pass through impassable tiles","Damage is ignored when determining unit Strength","[2] additional attacks per turn","[+100]% XP gained from combat <starting from the [Renaissance era]>","Never appears as a Barbarian unit","May withdraw before melee ([90]%) <when below [15] HP>","Can see over obstacles",
+			"[+100]% chance to intercept air attacks","Limited to [1] per Civilization","May travel on Water tiles without embarking","[+50]% Strength <when below [50] HP>","[3] XP gained from combat"]
 		"attackSound": "shot"
+	},
+	{
+		"name": "Ballista",
+		"unitType": "Siege",
+		"replaces": "Catapult",
+		"uniqueTo": "Rome",
+		"movement": 3,
+		"strength": 25,
+		"rangedStrength": 20,
+		"range": 4,
+		"cost": 75,
+		"requiredTech": "Mathematics",
+		"promotions": ["Ignore terrain cost","Rejuvenation"],
+		"uniques": ["[+100]% Strength <vs cities> <when attacking>","[+100]% Strength <when defending> <when below [50] HP>","Never appears as a Barbarian unit","Limited to [3] per Civilization","[3] XP gained from combat",
+			"Must set up to ranged attack","[1] additional attacks per turn","[1] additional attacks per turn <starting from the [Renaissance era]>","[+1] Sight"],
+		"attackSound": "throw"
 	}
 ]
