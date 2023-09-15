@@ -24,6 +24,11 @@
         "movementType": "Land"
     },
     {
+        "name": "King",
+        "movementType": "Land",
+        "uniques": ["Can enter ice tiles", "Can see invisible [All] units"]
+    },
+    {
         "name": "Mounted",
         "movementType": "Land"
     },
