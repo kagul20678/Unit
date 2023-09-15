@@ -1,16 +1,16 @@
 [
 	{
-		"name": "King",
+		"name": "Scout",
 		"unitType": "King",
 		"uniqueTo": "Rome",
 		"movement": 5,
-		"strength": 15,
+		"strength": 30,
 		"rangedStrength": 30,
 		"range": 3,
-		"interceptRange": 5,
-		"cost": 5,
+		"interceptRange": 6,
+		"cost": 15,
 		"promotions": ["Ignore terrain cost","Rejuvenation"],
-		"uniques": ["Ignores Zone of Control","Can pass through impassable tiles","Damage is ignored when determining unit Strength","[2] additional attacks per turn","[+100]% XP gained from combat","Never appears as a Barbarian unit","May withdraw before melee ([90]%) <when below [15] HP>","Can see over obstacles","[+100]% chance to intercept air attacks","Limited to [1] per Civilization","May travel on Water tiles without embarking","[+10]% Strength <upon being promoted>"],
+		"uniques": ["Ignores Zone of Control","Can pass through impassable tiles","Damage is ignored when determining unit Strength","[2] additional attacks per turn","[+100]% XP gained from combat","Never appears as a Barbarian unit","May withdraw before melee ([90]%) <when below [15] HP>","Can see over obstacles","[+100]% chance to intercept air attacks","Limited to [1] per Civilization","May travel on Water tiles without embarking","[+50]% Strength <when below [50] HP>"],
 		"attackSound": "shot"
 	}
 ]
