@@ -67,7 +67,7 @@ UnitIcons/Spider Tank
   orig: 200, 200
   offset: 200, 200
   index: -1
-UnitIcons/Head Maid
+UnitIcons/Maid
   rotate: false
   xy: 200, 800
   size: 200, 200
@@ -158,14 +158,14 @@ TileSets/FantasyHex/Units/Maid Cruiser
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Head Maid
+TileSets/FantasyHex/Units/Maid
   rotate: false
   xy: 600, 196
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Maid Trooper
+UnitPromotionIcons/Maid absorption
   rotate: false
   xy: 600, 224
   size: 50, 50
