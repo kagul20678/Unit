@@ -3,7 +3,7 @@
 	{
 		"name": "Heal Instantly",
 		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","King","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Maid","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
         "row": 0,
         "column": 0
     },
@@ -69,7 +69,7 @@
 		"name": "Extended Range",
 		"prerequisites": ["Accuracy III","Barrage III","Targeting II","Bombardment II", "Wolfpack II"],
 		"uniques": ["[+1] Range"],
-		"unitTypes": ["Archery","King","Ranged Gunpowder","Siege","Ranged Water","Submarine"],
+		"unitTypes": ["Archery","Maid","Ranged Gunpowder","Siege","Ranged Water","Submarine"],
         "column": 3,
         "row": 3
 	},
@@ -77,7 +77,7 @@
 		"name": "Indirect Fire",
 		"prerequisites": ["Accuracy III", "Barrage III", "Bombardment II", "Targeting II"],
 		"uniques": ["Ranged attacks may be performed over obstacles"],
-		"unitTypes": ["Archery","King","Ranged Gunpowder","Siege","Ranged Water"],
+		"unitTypes": ["Archery","Maid","Ranged Gunpowder","Siege","Ranged Water"],
         "column": 3,
         "row": 4
 	},
@@ -86,7 +86,7 @@
 	{
 		"name": "Shock I",
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
-		"unitTypes": ["Sword","Gunpowder","King","Mounted","Armored"],
+		"unitTypes": ["Sword","Gunpowder","Maid","Mounted","Armored"],
         "column": 4,
         "row": 1
 	},
@@ -94,7 +94,7 @@
 		"name": "Shock II",
 		"prerequisites": ["Shock I"],
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
-		"unitTypes": ["Sword","Gunpowder","King","Mounted","Armored"],
+		"unitTypes": ["Sword","Gunpowder","Maid","Mounted","Armored"],
         "column": 4,
         "row": 2
 	},
@@ -102,7 +102,7 @@
 		"name": "Shock III",
 		"prerequisites": ["Shock II"],
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
-		"unitTypes": ["Sword","Gunpowder","King","Mounted","Armored"],
+		"unitTypes": ["Sword","Gunpowder","Maid","Mounted","Armored"],
         "column": 4,
         "row": 3
 	},
@@ -110,7 +110,7 @@
 	{
 		"name": "Drill I",
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
-		"unitTypes": ["Sword","Gunpowder","King","Mounted","Armored"],
+		"unitTypes": ["Sword","Gunpowder","Maid","Mounted","Armored"],
         "column": 5,
         "row": 1
 	},
@@ -118,7 +118,7 @@
 		"name": "Drill II",
 		"prerequisites": ["Drill I"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
-		"unitTypes": ["Sword","Gunpowder","King","Mounted","Armored"],
+		"unitTypes": ["Sword","Gunpowder","Maid","Mounted","Armored"],
         "column": 5,
         "row": 2
 	},
@@ -126,7 +126,7 @@
 		"name": "Drill III",
 		"prerequisites": ["Drill II"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
-		"unitTypes": ["Sword","Gunpowder","King","Mounted","Armored"],
+		"unitTypes": ["Sword","Gunpowder","Maid","Mounted","Armored"],
         "column": 5,
         "row": 3
 	},
@@ -134,7 +134,7 @@
 		"name": "Charge",
 		"prerequisites": ["Shock II","Drill II"],
 		"uniques": ["[+33]% Strength <vs [Wounded] units>"],
-		"unitTypes": ["Mounted","King","Armored"],
+		"unitTypes": ["Mounted","Maid","Armored"],
         "column": 6,
         "row": 2
 	},
@@ -142,7 +142,7 @@
 		"name": "Besiege", // Not called "Siege" in order to not conflict with siege type units for translations
 		"prerequisites": ["Shock II","Drill II"],
 		"uniques": ["[+50]% Strength <vs cities>"],
-		"unitTypes": ["Sword","King","Gunpowder"],
+		"unitTypes": ["Sword","Maid","Gunpowder"],
         "column": 6,
         "row": 3
 	},
@@ -150,7 +150,7 @@
 		"name": "Formation I",
 		"prerequisites": ["Shock II","Drill II"], // G&K also has Accuracy II & Barrage II as possible prerequisites for this, but I couldn't find a source for the unittypes
 		"uniques": ["[+33]% Strength <vs [Mounted] units>"],
-		"unitTypes": ["Sword","King","Gunpowder","Mounted"],
+		"unitTypes": ["Sword","Maid","Gunpowder","Mounted"],
         "column": 7,
         "row": 2
 	},
@@ -158,7 +158,7 @@
 		"name": "Formation II",
 		"prerequisites": ["Formation I"],
 		"uniques": ["[+33]% Strength <vs [Mounted] units>"],
-		"unitTypes": ["Sword","King","Gunpowder","Mounted"],
+		"unitTypes": ["Sword","Maid","Gunpowder","Mounted"],
         "column": 7,
         "row": 3
 	},
@@ -167,7 +167,7 @@
 		"name": "Blitz",
 		"prerequisites": ["Shock III","Drill III"],
 		"uniques": ["[1] additional attacks per turn"],
-		"unitTypes": ["Sword","King","Gunpowder","Mounted","Armored"],
+		"unitTypes": ["Sword","Maid","Gunpowder","Mounted","Armored"],
         "column": 6,
         "row": 4
 	},
@@ -175,7 +175,7 @@
 		"name": "Woodsman",
 		"prerequisites": ["Shock III","Drill III"],
 		"uniques": ["Double movement in [Forest]","Double movement in [Jungle]"],
-		"unitTypes": ["Sword","King","Gunpowder"],
+		"unitTypes": ["Sword","Maid","Gunpowder"],
         "column": 6,
         "row": 5
 	},
@@ -183,7 +183,7 @@
 		"name": "Amphibious",
 		"prerequisites": ["Shock I", "Drill I"],
 		"uniques": ["Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast"],
-		"unitTypes": ["Sword","King","Gunpowder"],
+		"unitTypes": ["Sword","Maid","Gunpowder"],
         "column": 6,
         "row": 1
 	},
@@ -191,7 +191,7 @@
 		"name": "Medic",
 		"prerequisites": ["Shock I", "Drill I", "Scouting II", "Survivalism II"],
 		"uniques": ["All adjacent units heal [+5] HP when healing"],
-		"unitTypes": ["Sword","King","Gunpowder","Mounted","Scout"],
+		"unitTypes": ["Sword","Maid","Gunpowder","Mounted","Scout"],
         "column": 10, // after scout base
         "row": 1
 	},
@@ -199,7 +199,7 @@
 		"name": "Medic II",
 		"prerequisites": ["Medic"],
 		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "All adjacent units heal [+5] HP when healing"],
-		"unitTypes": ["Sword","King","Gunpowder","Mounted","Scout"],
+		"unitTypes": ["Sword","Maid","Gunpowder","Mounted","Scout"],
         "column": 10,
         "row": 2
 	},
@@ -208,7 +208,7 @@
 	{
 		"name": "Scouting I",
 		"uniques": ["[+1] Sight"],
-		"unitTypes": ["Scout","King"],
+		"unitTypes": ["Scout","Maid"],
         "column": 8,
         "row": 1
 	},
@@ -216,7 +216,7 @@
 		"name": "Scouting II",
 		"prerequisites": ["Scouting I"],
 		"uniques": ["[+1] Sight"],
-		"unitTypes": ["Scout","King"],
+		"unitTypes": ["Scout","Maid"],
         "column": 8,
         "row": 2
 	},
@@ -224,14 +224,14 @@
 		"name": "Scouting III",
 		"prerequisites": ["Scouting II"],
 		"uniques": ["[+1] Movement"],
-		"unitTypes": ["Scout","King"],
+		"unitTypes": ["Scout","Maid"],
         "column": 8,
         "row": 3
 	},
 	{
 		"name": "Survivalism I",
 		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "[+25]% Strength <when defending>"],
-		"unitTypes": ["Scout","King"],
+		"unitTypes": ["Scout","Maid"],
         "column": 9,
         "row": 1
 	},
@@ -239,7 +239,7 @@
 		"name": "Survivalism II",
 		"prerequisites": ["Survivalism I"],
 		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "[+25]% Strength <when defending>"],
-		"unitTypes": ["Scout","King"],
+		"unitTypes": ["Scout","Maid"],
         "column": 9,
         "row": 2
 	},
@@ -257,7 +257,7 @@
 	{
 		"name": "Boarding Party I",
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
-		"unitTypes": ["Melee Water","King"],
+		"unitTypes": ["Melee Water","Maid"],
         "column": 11,
         "row": 1
 	},
@@ -265,7 +265,7 @@
 		"name": "Boarding Party II",
 		"prerequisites": ["Boarding Party I"],
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
-		"unitTypes": ["Melee Water","King"],
+		"unitTypes": ["Melee Water","Maid"],
         "column": 11,
         "row": 2
 	},
@@ -273,7 +273,7 @@
 		"name": "Boarding Party III",
 		"prerequisites": ["Boarding Party II"],
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
-		"unitTypes": ["Melee Water","King"],
+		"unitTypes": ["Melee Water","Maid"],
         "column": 11,
         "row": 3
 	},
@@ -304,7 +304,7 @@
 	{
 		"name": "Landing Party",
 		"uniques": ["Eliminates combat penalty for attacking across a coast"],
-		"unitTypes": ["Melee Water","King"],
+		"unitTypes": ["Melee Water","Maid"],
         "column": 12,
         "row": 5
 	},
@@ -313,7 +313,7 @@
 	{
 		"name": "Targeting I",
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
-		"unitTypes": ["Ranged Water","King"],
+		"unitTypes": ["Ranged Water","Maid"],
         "column": 13,
         "row": 1
 	},
@@ -321,7 +321,7 @@
 		"name": "Targeting II",
 		"prerequisites": ["Targeting I"],
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
-		"unitTypes": ["Ranged Water","King"],
+		"unitTypes": ["Ranged Water","Maid"],
         "column": 13,
         "row": 2
 	},
@@ -329,7 +329,7 @@
 		"name": "Targeting III",
 		"prerequisites": ["Targeting II"],
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
-		"unitTypes": ["Ranged Water","King"],
+		"unitTypes": ["Ranged Water","Maid"],
         "column": 13,
         "row": 3
 	},
@@ -363,7 +363,7 @@
 	{
 		"name": "Armor Plating I",
 		"uniques": ["[+25]% Strength <when defending>"],
-		"unitTypes": ["Aircraft Carrier","King"],
+		"unitTypes": ["Aircraft Carrier","Maid"],
         "column": 15,
         "row": 1
 	},
@@ -371,7 +371,7 @@
 		"name": "Armor Plating II",
 		"prerequisites": ["Armor Plating I"],
 		"uniques": ["[+25]% Strength <when defending>"],
-		"unitTypes": ["Aircraft Carrier","King"],
+		"unitTypes": ["Aircraft Carrier","Maid"],
         "column": 15,
         "row": 2
 	},
@@ -379,7 +379,7 @@
 		"name": "Armor Plating III",
 		"prerequisites": ["Armor Plating II"],
 		"uniques": ["[+25]% Strength <when defending>"],
-		"unitTypes": ["Aircraft Carrier","King"],
+		"unitTypes": ["Aircraft Carrier","Maid"],
         "column": 15,
         "row": 3
 	},
@@ -454,7 +454,7 @@
 	{
 		"name": "Interception I",
 		"uniques": ["[+33]% Damage when intercepting"],
-		"unitTypes": ["Fighter","King"],
+		"unitTypes": ["Fighter","Maid"],
         "column": 18,
         "row": 1
 	},
@@ -462,7 +462,7 @@
 		"name": "Interception II",
 		"prerequisites": ["Interception I"],
 		"uniques": ["[+33]% Damage when intercepting"],
-		"unitTypes": ["Fighter","King"],
+		"unitTypes": ["Fighter","Maid"],
         "column": 18,
         "row": 2
 	},
@@ -470,7 +470,7 @@
 		"name": "Interception III",
 		"prerequisites": ["Interception II"],
 		"uniques": ["[+34]% Damage when intercepting"],
-		"unitTypes": ["Fighter","King"],
+		"unitTypes": ["Fighter","Maid"],
         "column": 18,
         "row": 3
 	},
@@ -518,7 +518,7 @@
 		"name": "Sortie",
 		"prerequisites": ["Interception II", "Dogfighting II"],
 		"uniques": ["[1] extra interceptions may be made per turn"],
-		"unitTypes": ["Fighter","King"],
+		"unitTypes": ["Fighter","Maid"],
         "column": 21,
         "row": 2
 	},
@@ -544,7 +544,7 @@
 	{
 		"name": "Mobility I",
 		"uniques": ["[+1] Movement"],
-		"unitTypes": ["Helicopter","King"],
+		"unitTypes": ["Helicopter","Maid"],
         "column": 22,
         "row": 1
 	},
@@ -552,14 +552,14 @@
 		"name": "Mobility II",
 		"prerequisites": ["Mobility I"],
 		"uniques": ["[+1] Movement"],
-		"unitTypes": ["Helicopter","King"],
+		"unitTypes": ["Helicopter","Maid"],
         "column": 22,
         "row": 2
 	},
 	{
 		"name": "Anti-Armor I",
 		"uniques": ["[+25]% Strength <vs [Armored] units>"],
-		"unitTypes": ["Helicopter","King"],
+		"unitTypes": ["Helicopter","Maid"],
         "column": 23,
         "row": 1
 	},
@@ -567,7 +567,7 @@
 		"name": "Anti-Armor II",
 		"prerequisites": ["Anti-Armor I"],
 		"uniques": ["[+25]% Strength <vs [Armored] units>"],
-		"unitTypes": ["Helicopter","King"],
+		"unitTypes": ["Helicopter","Maid"],
         "column": 23,
         "row": 2
 	},
@@ -576,7 +576,7 @@
 	{
 		"name": "Cover I",
 		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
-		"unitTypes": ["Sword","King","Gunpowder","Archery","Ranged Gunpowder","Siege"],
+		"unitTypes": ["Sword","Maid","Gunpowder","Archery","Ranged Gunpowder","Siege"],
         "column": 24,
         "row": 1
 	},
@@ -584,7 +584,7 @@
 		"name": "Cover II",
 		"prerequisites": ["Cover I"],
 		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
-		"unitTypes": ["Sword","King","Gunpowder","Archery","Ranged Gunpowder","Siege"],
+		"unitTypes": ["Sword","Maid","Gunpowder","Archery","Ranged Gunpowder","Siege"],
         "column": 24,
         "row": 2
 	},
@@ -593,7 +593,7 @@
 		"name": "March",
 		"prerequisites": ["Accuracy II","Barrage II","Shock III","Drill III"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
-		"unitTypes": ["Sword","King","Gunpowder","Archery","Ranged Gunpowder","Siege","Mounted"],
+		"unitTypes": ["Sword","Maid","Gunpowder","Archery","Ranged Gunpowder","Siege","Mounted"],
         "column": 10,
         "row": 3
 	},
@@ -610,7 +610,7 @@
 		"name": "Sentry",
 		"prerequisites": ["Accuracy I","Barrage I","Shock II","Drill II","Bombardment I","Targeting I","Boarding Party I","Coastal Raider I"],
 		"uniques": ["[+1] Sight"],
-		"unitTypes": ["Sword","King","Gunpowder","Mounted","Ranged Water","Armored","Melee Water"],
+		"unitTypes": ["Sword","Maid","Gunpowder","Mounted","Ranged Water","Armored","Melee Water"],
         "column": 24,
         "row": 4
 	},
@@ -619,7 +619,7 @@
 		"prerequisites": ["Accuracy III","Barrage III","Targeting III", "Wolfpack III",
 			"Bombardment III", "Coastal Raider III","Boarding Party III","Siege III", "Mobility II", "Anti-Armor II"],
 		"uniques": ["[1] additional attacks per turn", "Can move after attacking"],
-		"unitTypes": ["Archery","King","Ranged Gunpowder","Siege","Melee Water","Ranged Water","Submarine","Fighter","Bomber","Helicopter"],
+		"unitTypes": ["Archery","Maid","Ranged Gunpowder","Siege","Melee Water","Ranged Water","Submarine","Fighter","Bomber","Helicopter"],
         "column": 24,
         "row": 5
 	},
@@ -627,7 +627,7 @@
 	{
 		"name": "Ambush I",
 		"uniques": ["[+33]% Strength <vs [Armored] units>"],
-		"unitTypes": ["Sword","King","Gunpowder","Fighter","Bomber"],
+		"unitTypes": ["Sword","Maid","Gunpowder","Fighter","Bomber"],
         "column": 25,
         "row": 1
 	},
@@ -635,7 +635,7 @@
 		"name": "Ambush II",
 		"prerequisites": ["Ambush I"],
 		"uniques": ["[+33]% Strength <vs [Armored] units>"],
-		"unitTypes": ["Sword","King","Gunpowder","Fighter","Bomber"],
+		"unitTypes": ["Sword","Maid","Gunpowder","Fighter","Bomber"],
         "column": 25,
         "row": 2
 	},
@@ -666,18 +666,18 @@
         "row": 3
 	},
 	{
-		"name": "King of survival",
+		"name": "Maid of survival",
 		"prerequisites": ["Survivalism II"],
 		"uniques": ["[+30]% Strength","[+50]% Strength <when defending>","[10] HP when healing <when below [20] HP>"],
-		"unitTypes": ["King"],
+		"unitTypes": ["Maid"],
         "column": 27,
         "row": 1
 	},
 	{
 		"name": "Overpower I",
-		"prerequisites": ["King of survival"],
+		"prerequisites": ["Maid of survival"],
 		"uniques": ["[+50]% Strength","[+50]% Strength <when defending>"],
-		"unitTypes": ["King"],
+		"unitTypes": ["Maid"],
         "column": 27,
         "row": 2
 	},
@@ -685,7 +685,7 @@
 		"name": "Overpower II",
 		"prerequisites": ["Overpower I"],
 		"uniques": ["[+50]% Strength","[+50]% Strength <when defending>"],
-		"unitTypes": ["King"],
+		"unitTypes": ["Maid"],
         "column": 27,
         "row": 3
 	},
@@ -693,7 +693,7 @@
 		"name": "Overpower III",
 		"prerequisites": ["Overpower II"],
 		"uniques": ["[+50]% Strength","[+50]% Strength <when defending>"],
-		"unitTypes": ["King"],
+		"unitTypes": ["Maid"],
         "column": 27,
         "row": 4
 	},
