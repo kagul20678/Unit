@@ -24,9 +24,10 @@
         "movementType": "Land"
     },
     {
-        "name": "King",
+        "name": "Maid",
         "movementType": "Land",
-        "uniques": ["Can enter ice tiles", "Can see invisible [All] units"]
+        "uniques": ["Can enter ice tiles","Ignores Zone of Control","Can pass through impassable tiles","Damage is ignored when determining unit Strength","[3] XP gained from combat",
+            "May withdraw before melee ([90]%) <when below [15] HP>","Can see over obstacles","May travel on Water tiles without embarking","Can see invisible [All] units"]
     },
     {
         "name": "Mounted",
