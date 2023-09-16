@@ -793,7 +793,7 @@
         "uniques": ["[1] additional attacks per turn", "Can move after attacking"]
     },
 	{
-		"name": "Maid Absorbtion",
+		"name": "Maid Absorption",
 		"uniques": ["Heals [20] damage if it kills a unit","This Unit gains [3] XP <upon defeating a [Military] unit> <for [5] turns>"]
 	}
 ]
