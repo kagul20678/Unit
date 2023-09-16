@@ -33,11 +33,11 @@
 		"strength": 25,
 		"rangedStrength": 20,
 		"range": 4,
-		"cost": 75,
+		"cost": 100,
 		"requiredTech": "Mathematics",
 		"promotions": ["Ignore terrain cost","Rejuvenation"],
 		"uniques": ["[+100]% Strength <vs cities> <when attacking>","[+100]% Strength <when defending> <when below [50] HP>","Never appears as a Barbarian unit","Limited to [3] per Civilization","[3] XP gained from combat",
-			"Must set up to ranged attack","[1] additional attacks per turn","[1] additional attacks per turn <starting from the [Renaissance era]>","[+1] Sight"],
+			"[1] additional attacks per turn","[1] additional attacks per turn <starting from the [Renaissance era]>","[+1] Sight"],
 		"attackSound": "throw"
 	}
 ]
