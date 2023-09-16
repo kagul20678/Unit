@@ -1,18 +1,16 @@
 [
 	{
-		"name": "Scout",
-		"unitType": "King",
+		"name": "Maid",
+		"unitType": "Maid",
 		"uniqueTo": "Rome",
-		"movement": 5,
-		"strength": 30,
-		"rangedStrength": 30,
-		"range": 3,
+		"movement": 6,
+		"strength": 50,
 		"interceptRange": 6,
-		"cost": 15,
-		"promotions": ["Ignore terrain cost","Rejuvenation"],
-		"uniques": ["Ignores Zone of Control","Can pass through impassable tiles","Damage is ignored when determining unit Strength","[2] additional attacks per turn","[+100]% XP gained from combat <starting from the [Renaissance era]>","Never appears as a Barbarian unit","May withdraw before melee ([90]%) <when below [15] HP>","Can see over obstacles",
-			"[+100]% chance to intercept air attacks","Limited to [1] per Civilization","May travel on Water tiles without embarking","[+50]% Strength <when below [50] HP>","[3] XP gained from combat"]
-		"attackSound": "shot"
+		"cost": 0,
+		"promotions": ["Maid absorbtion","Ignore terrain cost","Rejuvenation","March"],
+		"uniques": ["[2] additional attacks per turn","[+100]% XP gained from combat <starting from the [Renaissance era]>","Never appears as a Barbarian unit",
+			"[+100]% chance to intercept air attacks","Limited to [1] per Civilization","[+100]% Strength <when below [50] HP>"]
+		"attackSound": "whoosh"
 	},
 	{
 		"name": "Ballista",
