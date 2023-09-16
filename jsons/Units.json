@@ -7,7 +7,7 @@
 		"strength": 50,
 		"interceptRange": 6,
 		"cost": 0,
-		"promotions": ["Maid absorbtion","Ignore terrain cost","Rejuvenation","Morale","March"],
+		"promotions": ["Maid absorption","Ignore terrain cost","Rejuvenation","Morale","March"],
 		"uniques": ["[2] additional attacks per turn","[+100]% XP gained from combat <starting from the [Renaissance era]>","Never appears as a Barbarian unit",
 			"[+100]% chance to intercept air attacks","Limited to [1] per Civilization","[+100]% Strength <when below [50] HP>","Free [Maid] appears <with [10]% chance> <upon defeating a [Wounded] unit> <[3] times>"]
 		"attackSound": "whoosh"
@@ -19,7 +19,7 @@
 		"movement": 2,
 		"strength": 25,
 		"cost": 0,
-		"promotions": ["Maid absorbtion","Ignore terrain cost","Rejuvenation","Morale","March"],
+		"promotions": ["Maid absorption","Ignore terrain cost","Rejuvenation","Morale","March"],
 		"uniques": ["Cannot be purchased","Unbuildable","[1] additional attacks per turn","[+50]% XP gained from combat <starting from the [Renaissance era]>","Never appears as a Barbarian unit",
 			"[+50]% Strength <when below [50] HP>"]
 		"attackSound": "whoosh"
