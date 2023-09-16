@@ -795,5 +795,9 @@
 	{
 		"name": "Maid Absorption",
 		"uniques": ["Heals [20] damage if it kills a unit","This Unit gains [3] XP <upon defeating a [Military] unit> <for [5] turns>"]
+	},
+	{
+		"name": "UB",
+		"uniques": ["Can transform to [Maid] <when adjacent to a [Head Maid] unit> <for [3] turns>"]
 	}
 ]
