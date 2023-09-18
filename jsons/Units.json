@@ -46,7 +46,7 @@
 		"cost": 100,
 		"requiredTech": "Mathematics",
 		"promotions": ["Ignore terrain cost","March","Rejuvenation"],
-		"uniques": ["[+100]% Strength <vs cities> <when attacking>","[+100]% Strength <when defending> <when below [50] HP>","Never appears as a Barbarian unit","Limited to [3] per Civilization","[3] XP gained from combat",
+		"uniques": ["[+100]% Strength <vs cities> <when attacking>","[+100]% Strength <when defending> <when below [50] HP>","Never appears as a Barbarian unit","Limited to [3] per Civilization","[3] XP gained from combat","Can see over obstacles",
 			"[1] additional attacks per turn","[1] additional attacks per turn <starting from the [Renaissance era]>","[1] additional attacks per turn <starting from the [Atomic era]>","[+100]% Strength <starting from the [Atomic era]>","[+1] Sight"],
 		"attackSound": "throw"
 	}
