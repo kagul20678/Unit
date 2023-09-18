@@ -794,6 +794,6 @@
     },
 	{
 		"name": "Maid Absorption",
-		"uniques": ["Heals [20] damage if it kills a unit","This Unit gains [10] XP <upon defeating a [Military] unit>"]
+		"uniques": ["Heals [10] damage if it kills a unit","This Unit gains [5] XP <upon defeating a [Military] unit>"]
 	}
 ]
