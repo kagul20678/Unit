@@ -26,7 +26,7 @@
     {
         "name": "Maid",
         "movementType": "Land",
-        "uniques": ["Can enter ice tiles","Ignores Zone of Control","Can pass through impassable tiles","Damage is ignored when determining unit Strength","[3] XP gained from combat",
+        "uniques": ["Can enter ice tiles","Ignores Zone of Control","Can pass through impassable tiles","Damage is ignored when determining unit Strength","[3] XP gained from combat","[+1] Sight",
             "May withdraw before melee ([90]%) <when below [15] HP>","No defensive terrain penalty","Can see over obstacles","May travel on Water tiles without embarking","Can see invisible [All] units"]
     },
     {
