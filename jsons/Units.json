@@ -18,7 +18,7 @@
 		"interceptRange": 6,
 		"cost": 0,
 		"promotions": ["Maid Absorption","Ignore terrain cost","Morale","March"],
-		"uniques": ["May heal outside of friendly territory","[2] additional attacks per turn","[+150]% XP gained from combat <starting from the [Renaissance era]>","Never appears as a Barbarian unit","[-125]% Strength <before the [Renaissance era]>",
+		"uniques": ["Can build [Land] improvements on tiles","[-50]% tile improvement construction time","May heal outside of friendly territory","[2] additional attacks per turn","[+150]% XP gained from combat <starting from the [Renaissance era]>","Never appears as a Barbarian unit","[-125]% Strength <before the [Renaissance era]>",
 			"[+100]% chance to intercept air attacks","Limited to [1] per Civilization","[+100]% Strength <when below [50] HP>","[+200]% Strength <when below [25] HP>","[+25]% Strength bonus for [Military] units within [3] tiles"]
 		"attackSound": "whoosh"
 	},
@@ -30,7 +30,7 @@
 		"strength": 40,
 		"cost": 0,
 		"promotions": ["Maid Absorption","Ignore terrain cost","Morale","March"],
-		"uniques": ["Cannot be purchased","Unbuildable","May heal outside of friendly territory","[1] additional attacks per turn","[+100]% XP gained from combat <starting from the [Renaissance era]>","Never appears as a Barbarian unit",
+		"uniques": ["Cannot be purchased","Unbuildable","Can build [Land] improvements on tiles","[-25]% tile improvement construction time","May heal outside of friendly territory","[1] additional attacks per turn","[+100]% XP gained from combat <starting from the [Renaissance era]>","Never appears as a Barbarian unit",
 			"[-100]% Strength <before the [Renaissance era]>","[+50]% Strength <when below [50] HP>","[+100]% Strength <when below [25] HP>","[+10]% Strength bonus for [Military] units within [3] tiles"]
 		"attackSound": "whoosh"
 	},
