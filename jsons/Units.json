@@ -17,8 +17,8 @@
 		"strength": 75,
 		"interceptRange": 6,
 		"cost": 0,
-		"promotions": ["Maid Absorption","Ignore terrain cost","Rejuvenation","Morale","March"],
-		"uniques": ["[2] additional attacks per turn","[+100]% XP gained from combat <starting from the [Renaissance era]>","Never appears as a Barbarian unit","[-125]% Strength <before the [Renaissance era]>",
+		"promotions": ["Maid Absorption","Ignore terrain cost","Morale","March"],
+		"uniques": ["[2] additional attacks per turn","[+150]% XP gained from combat <starting from the [Renaissance era]>","Never appears as a Barbarian unit","[-125]% Strength <before the [Renaissance era]>",
 			"[+100]% chance to intercept air attacks","Limited to [1] per Civilization","[+100]% Strength <when below [50] HP>","[+200]% Strength <when below [25] HP>","[+25]% Strength bonus for [Military] units within [3] tiles"]
 		"attackSound": "whoosh"
 	},
@@ -29,25 +29,24 @@
 		"movement": 2,
 		"strength": 40,
 		"cost": 0,
-		"promotions": ["Maid Absorption","Ignore terrain cost","Rejuvenation","Morale","March"],
-		"uniques": ["Cannot be purchased","Unbuildable","[1] additional attacks per turn","[+50]% XP gained from combat <starting from the [Renaissance era]>","Never appears as a Barbarian unit",
+		"promotions": ["Maid Absorption","Ignore terrain cost","Morale","March"],
+		"uniques": ["Cannot be purchased","Unbuildable","[1] additional attacks per turn","[+100]% XP gained from combat <starting from the [Renaissance era]>","Never appears as a Barbarian unit",
 			"[-100]% Strength <before the [Renaissance era]>","[+50]% Strength <when below [50] HP>","[+100]% Strength <when below [25] HP>","[+10]% Strength bonus for [Military] units within [3] tiles"]
 		"attackSound": "whoosh"
 	},
 	{
 		"name": "Ballista",
-		"unitType": "Siege",
+		"unitType": "Ballista",
 		"replaces": "Catapult",
 		"uniqueTo": "Rome",
 		"movement": 3,
 		"strength": 25,
-		"rangedStrength": 20,
+		"rangedStrength": 25,
 		"range": 4,
-		"cost": 100,
+		"cost": 300,
 		"requiredTech": "Mathematics",
-		"promotions": ["Ignore terrain cost","March","Rejuvenation"],
-		"uniques": ["[+100]% Strength <vs cities> <when attacking>","[+100]% Strength <when defending> <when below [50] HP>","Never appears as a Barbarian unit","Limited to [3] per Civilization","[3] XP gained from combat","Can see over obstacles",
-			"[1] additional attacks per turn","[1] additional attacks per turn <starting from the [Renaissance era]>","[1] additional attacks per turn <starting from the [Atomic era]>","[+100]% Strength <starting from the [Atomic era]>","[+1] Sight"],
+		"promotions": ["Ignore terrain cost","March"],
+		"uniques": ["Limited to [1] per Civilization"],
 		"attackSound": "throw"
 	}
 ]
