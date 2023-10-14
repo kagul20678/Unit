@@ -32,7 +32,7 @@
     {
         "name": "Ballista",
         "movementType": "Land",
-"unique": ["[+100]% Strength <vs cities> <when attacking>","[+100]% Strength <when defending> <when below [50] HP>","Never appears as a Barbarian unit","[3] XP gained from combat","Can see over obstacles",
+"uniques": ["[+100]% Strength <vs cities> <when attacking>","[+100]% Strength <when defending> <when below [50] HP>","Never appears as a Barbarian unit","[3] XP gained from combat","Can see over obstacles",
 			"[1] additional attacks per turn","[1] additional attacks per turn <starting from the [Renaissance era]>","[1] additional attacks per turn <starting from the [Atomic era]>","[+100]% Strength <starting from the [Atomic era]>","May travel on Water tiles without embarking","[+1] Sight"]
     },
     {
